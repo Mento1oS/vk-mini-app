@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Pribambas';
+  src: url('./assets/Pribambas-Regular.woff2') format('woff2'),
+  url('./assets/Pribambas-Regular.woff') format('woff'),
+  url('./assets/Pribambas-Regular.ttf') format('truetype'),
+  url('./assets/Pribambas-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VK Sans Display';
+  src: url('./assets/VKSansDisplay-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#root {
+  font-family: Pribambas;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+body{
+  overflow: hidden;
+}
+.app{
+  min-height: 100%;
+}

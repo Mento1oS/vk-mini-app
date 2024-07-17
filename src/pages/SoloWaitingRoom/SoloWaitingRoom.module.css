@@ -1,0 +1,45 @@
+.container {
+    padding-top: 60px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("../../assets/main&solo_landing.png"), linear-gradient(to bottom, rgb(163, 93, 46), rgb(163, 93, 46));
+    background-blend-mode: multiply;
+    background-repeat: no-repeat, no-repeat;
+    object-fit: cover;
+    background-position: bottom left,
+    left;
+    padding-bottom: calc(100vh - 319px);
+    overflow: hidden;
+}
+.picture{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    padding-top: calc((100vh - 852px)/3 + 51px);
+    font-family: 'Pribambas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.8544px;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.counter{
+    font-family: 'Pribambas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc((100vh - 852px)/2 + 281.087px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

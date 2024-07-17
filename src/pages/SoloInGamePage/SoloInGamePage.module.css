@@ -1,0 +1,37 @@
+.container {
+    padding-top: 60px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/main&solo_landing.png"), linear-gradient(to bottom, rgb(163, 93, 46), rgb(163, 93, 46));
+    background-blend-mode: multiply;
+    background-repeat: no-repeat, no-repeat;
+    object-fit: cover;
+    background-position: bottom left,
+    left;
+    position: relative;
+    padding-bottom: calc(100vh - 319px);
+    overflow: hidden;
+}
+
+.picture {
+    padding-top: 22px;
+    cursor: grab;
+}
+
+.ingredient {
+    padding-top: calc((100vh - 852px) / 4 + 55px);
+    font-family: 'Pribambas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.8544px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.voteBar {
+    margin: 0 auto;
+    padding-top: calc((100vh - 852px) / 12 + 36px);
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
